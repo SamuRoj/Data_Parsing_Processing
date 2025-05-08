@@ -42,7 +42,7 @@ Follow these steps to set up the development environment:
 | **Job Title**          | Job title of the employee (e.g., Manager, Developer, Designer).               | String    | Categorical              |
 | **Hire Date**          | Date when the employee was hired.                                             | Date      | Uniform                  |
 | **Days Service**       | Number of days the employee has been with the company.                        | Integer   | Uniform                  |
-| **Base Salary**        | Base salary of the employee in USD.                                           | Integer   | Normal Left Skewed                  |
+| **Base Salary**        | Base salary of the employee in USD.                                           | Integer   | Normal Right Skewed                  |
 | **Bonus Percentage**   | Percentage of bonus the employee is eligible for.                             | Integer   | Normal                   |
 | **Status**             | Employment status of the employee (e.g., Active, Inactive, Leave).         | String    | Categorical              |
 | **Birth Date**         | Date of birth of the employee.                                                | Date      | Uniform                  |
@@ -78,6 +78,7 @@ python -m unittest discover -v
 
 ### Current Coverage
 
+```
 Name                   Stmts   Miss  Cover
 ------------------------------------------
 clean\__init__.py          0      0   100%
@@ -86,6 +87,7 @@ test\__init__.py           0      0   100%
 test\test_dataset.py      20      0   100%
 ------------------------------------------
 TOTAL                     66      0   100%
+```
 
 ## Built With
 
